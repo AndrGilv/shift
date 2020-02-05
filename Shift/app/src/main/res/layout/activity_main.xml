@@ -28,35 +28,28 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/buttontobar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_bar_vector"
             android:text="Button" />
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_cinema_vector"
-            android:text="Button" />
-
-        <Button
-            android:id="@+id/button5"
+            android:id="@+id/buttontopool"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_pool_vector"
             android:text="Button" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/buttontospa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_spa_vector"
             android:text="Button" />
 
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/buttontojim"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_jim_vector"
