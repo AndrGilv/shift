@@ -12,7 +12,7 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/serviceImage"
             android:layout_width="match_parent"
             android:layout_height="266dp"
              />
@@ -21,7 +21,7 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignBottom="@+id/serviceImage"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
@@ -31,55 +31,48 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@+id/imageView"
+            android:layout_below="@+id/serviceImage"
             android:layout_marginTop="0dp"
             android:background="#4666C7"
             android:orientation="vertical">
-
-            <EditText
-                android:id="@+id/editText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="30dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Search" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="30dp"
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/buttonToJimService"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="Качалка" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/buttonToCardio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:onClick="onClick"
+                    android:text="Беговая дорожка" />
 
                 <Button
-                    android:id="@+id/button8"
+                    android:id="@+id/buttonToYoga"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="Йога" />
 
                 <Button
-                    android:id="@+id/button9"
+                    android:id="@+id/buttonToBrusya"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="Брусья" />
 
                 <Button
-                    android:id="@+id/button10"
+                    android:id="@+id/buttonToMMA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="ММА зал" />
             </LinearLayout>
 
         </LinearLayout>
