@@ -18,7 +18,7 @@
              />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/serviceTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/serviceImage"
@@ -47,32 +47,31 @@
                     android:id="@+id/buttonToJimService"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Качалка" />
+                    android:text="Качалка***" />
 
                 <Button
                     android:id="@+id/buttonToCardio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:onClick="onClick"
-                    android:text="Беговая дорожка" />
+                    android:text="Беговая дорожка***" />
 
                 <Button
                     android:id="@+id/buttonToYoga"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Йога" />
+                    android:text="Йога***" />
 
                 <Button
                     android:id="@+id/buttonToBrusya"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Брусья" />
+                    android:text="Брусья***" />
 
                 <Button
                     android:id="@+id/buttonToMMA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="ММА зал" />
+                    android:text="ММА зал****" />
             </LinearLayout>
 
         </LinearLayout>

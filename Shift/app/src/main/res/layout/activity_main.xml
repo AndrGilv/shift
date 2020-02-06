@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_jim_vector"
-            android:text="Button" />
+            android:text="Качалка" />
 
     </LinearLayout>
 </LinearLayout>
