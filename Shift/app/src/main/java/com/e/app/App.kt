@@ -9,7 +9,7 @@ class App : Application() {
     companion object {
         private val retrofit =
             Retrofit.Builder()
-                .baseUrl("https://51.83.145.18:8080/")
+                .baseUrl("http://51.83.145.18:8080/api/v1/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
         val service = retrofit.create(Service::class.java)

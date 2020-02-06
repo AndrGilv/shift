@@ -5,11 +5,13 @@ import retrofit2.http.*
 
 interface Service {
 
-    @GET()
-    fun getJimReservations(): Call<List<ReservationEnity>>
 
-    @GET("gim")
+
+    @GET("gym")
     fun getServices(): Call<List<Services>>
+
+    @GET("services/gym/{date}")
+    fun getReservation(@Path("date") date: Long): Call<List<ReservationEnity>>
 /*
     @GET("users/{id}")
     fun getUser(@Path("id") id: Int): Call<Unit>

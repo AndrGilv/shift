@@ -9,4 +9,3 @@ data class Services(
     @SerializedName("rus") var rus : String
     )
 
-data class ServiceResult (val total_count: Int, val incomplete_results: Boolean, val items: List<ReservationEnity>)
