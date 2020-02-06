@@ -7,11 +7,11 @@ interface Service {
 
 
 
-    @GET("gym")
-    fun getServices(): Call<List<Services>>
+    @GET("{category}")
+    fun getServices(@Path("category") service : String): Call<List<Services>>
 
-    @GET("services/gym/{date}")
-    fun getReservation(@Path("date") date: Long): Call<List<ReservationEnity>>
+    @GET("services/{service}/{date}")
+    fun getReservation(@Path("service") service : String,@Path("date") date: Long): Call<List<ReservationEnity>>
 /*
     @GET("users/{id}")
     fun getUser(@Path("id") id: Int): Call<Unit>

@@ -15,10 +15,21 @@ class MainActivity : AppCompatActivity() {
 
         val buttontojim : Button =  findViewById(R.id.buttontojim)
 
-        //buttontojim.setOnClickListener(this::clickEvent)
+
         buttontojim.setOnClickListener{
             clickEvent(it)
         }
+        buttontobar.setOnClickListener{
+            clickEvent(it)
+        }
+        buttontopool.setOnClickListener{
+            clickEvent(it)
+        }
+        buttontospa.setOnClickListener {
+            clickEvent(it)
+        }
+
+
     }
 
 
@@ -26,10 +37,11 @@ class MainActivity : AppCompatActivity() {
     private fun clickEvent(view: View){
         val myIntent : Intent = Intent(this, sportServices::class.java)
         when(view.id){
-            R.id.buttontobar ->  myIntent.putExtra("category", "bur")
+            R.id.buttontobar ->  myIntent.putExtra("category", "bar")
+
             R.id.buttontopool -> myIntent.putExtra("category", "pool")
             R.id.buttontospa -> myIntent.putExtra("category", "spa")
-            R.id.buttontojim -> myIntent.putExtra("category", "jim")
+            R.id.buttontojim -> myIntent.putExtra("category", "gym")
         }
         startActivity(myIntent)
 
